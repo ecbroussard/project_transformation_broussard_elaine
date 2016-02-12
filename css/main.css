@@ -56,8 +56,7 @@ a {
 #header {
     width: 1000px;
     height: 150px;
-    margin: 0 auto;
-    padding: 0px 0px;
+    margin: auto;
 }
 
 /* Logo */
