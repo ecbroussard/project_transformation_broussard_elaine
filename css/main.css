@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #050505 url(../img/img01.jpg) repeat;
+    background: #050505 url("../img/img01.jpg") repeat;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #5b5b5b;
@@ -43,7 +43,7 @@ a {
 }
 
 #wrapper {
-    background: #ffffff url(../img/img05.jpg) repeat;
+    background: #ffffff url("../img/img05.jpg") repeat;
 }
 
 .container {
@@ -82,7 +82,7 @@ a {
 
 #logo h1 a {
     color: #1f1f1f;
-    text-shadow: 1px 1px 0px rgba(0,0,0,.2);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
 #logo p {
@@ -181,7 +181,7 @@ a {
     padding: 0px 20px 0px 20px;
     text-decoration: none;
     text-align: center;
-    text-shadow: 1px 1px 0px rgba(0,0,0,.2);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
@@ -192,7 +192,7 @@ a {
 
 #menu a:hover,
 #menu .current_page_item a {
-    background: url(../img/img01.jpg) repeat;
+    background: url("../img/img01.jpg") repeat;
     text-decoration: none;
     color: #ffffff;
 }
@@ -322,13 +322,13 @@ a {
 
 #sidebar li li a {
     padding: 0px 0px 0px 20px;
-    background: url(../img/img04.jpg) no-repeat left 50%;
+    background: url("../img/img04.jpg") no-repeat left 50%;
 }
 
 #sidebar h2 {
     height: 38px;
     padding: 0px 0px 30px 0px;
-    letter-spacing: -.5px;
+    letter-spacing: -0.5px;
     font-size: 1.8em;
     color: #222222;
 }
@@ -476,7 +476,7 @@ a {
     width: 252px;
     height: 38px;
     padding: 15px 0px 0px 0px;
-    background: url(../img/img07.jpg) no-repeat left top;
+    background: url("../img/img07.jpg") no-repeat left top;
     letter-spacing: -2px;
     text-align: center;
     text-transform: lowercase;
@@ -488,7 +488,7 @@ a {
     margin: 0px auto;
     width: 1000px;
     height: 340px;
-    background: url(../img/img03.png) no-repeat left bottom;
+    background: url("../img/img03.png") no-repeat left bottom;
 }
 
 .list-style1 {
