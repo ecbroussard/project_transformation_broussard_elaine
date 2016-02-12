@@ -302,13 +302,3 @@ a {
     height: 340px;
     background: url("../img/img03.png") no-repeat left bottom;
 }
-
-.list-style1 {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-.list-style1 a {
-    color: #7f7f7f;
-}
