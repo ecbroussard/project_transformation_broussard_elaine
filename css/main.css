@@ -8,12 +8,10 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    font-weight: normal;
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
     color: #222222;
@@ -32,8 +30,7 @@ h3 {
 }
 
 p,
-ul,
-ol {
+ul {
     margin-top: 0;
     line-height: 180%;
 }
@@ -48,7 +45,6 @@ a {
 
 .container {
     width: 1000px;
-    margin: 0px auto;
 }
 
 /* Header */
