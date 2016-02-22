@@ -83,16 +83,12 @@ a {
     float: right;
     width: 500px;
     height: 90px;
-    margin: 0 auto;
-    padding: 0;
 }
 
 #menu ul {
     float: right;
-    margin: 0;
-    padding: 20px 0px 0px 0px;
+    padding-top: 20px;
     list-style: none;
-    line-height: normal;
 }
 
 #menu li {
@@ -103,16 +99,14 @@ a {
     display: block;
     line-height: 100px;
     margin-right: 1px;
-    padding: 0px 20px 0px 20px;
+    padding-right: 20px;
+    padding-left: 20px;
     text-decoration: none;
     text-align: center;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
     font-weight: 300;
-    color: #1f1f1f;
-    border: none;
 }
 
 #menu a:hover,
