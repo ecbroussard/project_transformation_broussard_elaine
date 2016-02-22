@@ -43,17 +43,9 @@ a {
     background: #ffffff url("../img/img05.jpg") repeat;
 }
 
-.container {
-    width: 1000px;
-}
+/* Header and banner */
 
-/* Header */
-
-#header-wrapper {
-    overflow: hidden;
-}
-
-#header {
+header {
     width: 1000px;
     height: 150px;
     margin: auto;
@@ -88,23 +80,23 @@ a {
 
 /* Menu */
 
-#menu {
+nav {
     float: right;
     width: 500px;
     height: 90px;
 }
 
-#menu ul {
+nav ul {
     float: right;
     padding-top: 20px;
     list-style: none;
 }
 
-#menu li {
+nav li {
     float: left;
 }
 
-#menu a {
+nav a {
     display: block;
     line-height: 100px;
     margin-right: 1px;
@@ -118,8 +110,8 @@ a {
     font-weight: 300;
 }
 
-#menu a:hover,
-#menu .current_page_item a {
+nav a:hover,
+nav .current_page_item a {
     background: url("../img/img01.jpg") repeat;
     text-decoration: none;
     color: #ffffff;
@@ -127,7 +119,7 @@ a {
 
 /* Page */
 
-#page {
+main {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -137,27 +129,27 @@ a {
 
 /* Content */
 
-#content {
+section {
     float: right;
     width: 660px;
 }
 
-.post {
+article {
     margin-bottom: 40px;
     border-bottom: 1px solid #e7ebed;
 }
 
-.post .title {
+article .title {
     padding-top: 7px;
     letter-spacing: -1px;
 }
 
-.post .title a {
+article .title a {
     text-decoration: none;
     color: #222222;
 }
 
-.post .meta {
+article .meta {
     margin-bottom: 30px;
     padding-top: 10px;
     font-family: 'Abel', sans-serif;
@@ -165,15 +157,15 @@ a {
     font-weight: 300;
 }
 
-.post .meta .date {
+article .meta .date {
     float: left;
 }
 
-.post .meta .posted {
+article .meta articleed {
     float: right;
 }
 
-.post .entry {
+article .entry {
     padding-bottom: 40px;
     text-align: justify;
 }
@@ -201,33 +193,33 @@ a {
 
 /* Sidebar */
 
-#sidebar {
+aside {
     float: left;
     width: 270px;
     padding-top: 30px;
 }
 
-#sidebar ul {
+aside ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-#sidebar li ul {
+aside li ul {
     padding-bottom: 30px;
 }
 
-#sidebar li li {
+aside li li {
     line-height: 40px;
     border-bottom: 1px solid #e7ebed;
 }
 
-#sidebar li li a {
+aside li li a {
     padding-left: 20px;
     background: url("../img/img04.jpg") no-repeat left 50%;
 }
 
-#sidebar h2 {
+aside h2 {
     height: 38px;
     padding-bottom: 30px;
     letter-spacing: -0.5px;
@@ -235,7 +227,7 @@ a {
     color: #222222;
 }
 
-#sidebar p {
+aside p {
     padding-right: 30px;
     padding-bottom: 20px;
     padding-left: 30px;
@@ -244,7 +236,7 @@ a {
 
 /* Footer */
 
-#footer {
+footer {
     height: 140px;
     margin-left: auto;
     margin-right: auto;
@@ -253,7 +245,7 @@ a {
     font-family: 'Abel', sans-serif;
 }
 
-#footer p {
+footer p {
     padding-top: 10px;
     letter-spacing: 1px;
     font-size: 14px;
