@@ -42,13 +42,16 @@ a {
 /* Header and banner */
 
 header {
-    width: 1000px;
+    max-width: 1200px;
+    width: 80%;
     height: 150px;
     margin: auto;
 }
 
 
 #banner {
+    max-width: 1200px;
+    width: 80%;
     margin-right: auto;
     margin-left: auto;
     background: url("../img/img03.png") no-repeat left bottom;
@@ -119,7 +122,8 @@ nav .current_page_item a {
 /* Page */
 
 main {
-    width: 1000px;
+    max-width: 1200px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
