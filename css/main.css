@@ -131,30 +131,26 @@ a {
 #content {
     float: right;
     width: 660px;
-    padding: 0px 0px 0px 0px;
 }
 
 .post {
-    overflow: hidden;
     margin-bottom: 40px;
     border-bottom: 1px solid #e7ebed;
 }
 
 .post .title {
-    padding: 7px 0px 0px 0px;
+    padding-top: 7px;
     letter-spacing: -1px;
 }
 
 .post .title a {
-    border: none;
     text-decoration: none;
     color: #222222;
 }
 
 .post .meta {
     margin-bottom: 30px;
-    padding: 10px 0px 0px 0px;
-    text-align: left;
+    padding-top: 10px;
     font-family: 'Abel', sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -169,7 +165,7 @@ a {
 }
 
 .post .entry {
-    padding: 0px 0px 40px 0px;
+    padding-bottom: 40px;
     text-align: justify;
 }
 
@@ -179,18 +175,11 @@ a {
 }
 
 .more {
-    display: block;
-    float: left;
-    width: 88px;
-    padding: 5px 5px;
     margin-right: 10px;
-    background: #222222;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
 }
 
-.comments {
+.comments,
+.more {
     display: block;
     float: left;
     width: 88px;
