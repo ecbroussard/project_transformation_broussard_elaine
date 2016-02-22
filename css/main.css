@@ -59,6 +59,15 @@ a {
     margin: auto;
 }
 
+
+#banner {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    height: 340px;
+    background: url("../img/img03.png") no-repeat left bottom;
+}
+
 /* Logo */
 
 #logo {
@@ -251,11 +260,4 @@ a {
     text-transform: uppercase;
     text-align: center;
     color: #5e5e5e;
-}
-
-#banner {
-    margin: 0px auto;
-    width: 1000px;
-    height: 340px;
-    background: url("../img/img03.png") no-repeat left bottom;
 }
