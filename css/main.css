@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #050505 url("../img/img01.jpg") repeat;
+    background: #050505 url("../img/img05.jpg") repeat;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #5b5b5b;
@@ -37,10 +37,6 @@ ul {
 
 a {
     color: #5e5e5e;
-}
-
-#wrapper {
-    background: #ffffff url("../img/img05.jpg") repeat;
 }
 
 /* Header and banner */
@@ -132,6 +128,7 @@ main {
 section {
     float: right;
     width: 660px;
+    margin-bottom: 30px;
 }
 
 article {
@@ -237,12 +234,14 @@ aside p {
 /* Footer */
 
 footer {
+    background: #050505 url("../img/img01.jpg") repeat;
     height: 140px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 50px;
     padding-bottom: 15px;
     font-family: 'Abel', sans-serif;
+    clear: both;
 }
 
 footer p {
