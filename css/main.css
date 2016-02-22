@@ -51,9 +51,12 @@ header {
 #banner {
     margin-right: auto;
     margin-left: auto;
-    width: 1000px;
-    height: 340px;
     background: url("../img/img03.png") no-repeat left bottom;
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
 }
 
 /* Logo */
