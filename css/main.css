@@ -32,7 +32,7 @@ h3 {
 p,
 ul {
     margin-top: 0;
-    line-height: 180%;
+    /*line-height: 180%;*/
 }
 
 a {
@@ -44,7 +44,7 @@ a {
 #header {
     max-width: 1200px;
     width: 80%;
-    height: 150px;
+    /*height: 150px;*/
     margin: auto;
 }
 
@@ -70,7 +70,7 @@ a {
 }
 
 #logo h1 {
-    line-height: 120px;
+    /*line-height: 120px;*/
     letter-spacing: -2px;
     font-size: 3.8em;
 }
@@ -85,7 +85,7 @@ a {
 nav {
     /*float: right;*/
     width: 45%;
-    height: 90px;
+    /*height: 90px;*/
 }
 
 nav ul {
@@ -100,7 +100,7 @@ nav li {
 
 nav a {
     display: block;
-    line-height: 100px;
+    /*line-height: 100px;*/
     margin-right: 1px;
     padding-right: 20px;
     padding-left: 20px;
@@ -214,7 +214,7 @@ aside li ul {
 }
 
 aside li li {
-    line-height: 40px;
+    /*line-height: 40px;*/
     border-bottom: 1px solid #e7ebed;
 }
 
@@ -224,7 +224,7 @@ aside li li a {
 }
 
 aside h2 {
-    height: 38px;
+    /*height: 38px;*/
     padding-bottom: 30px;
     letter-spacing: -0.5px;
     font-size: 1.8em;
@@ -242,7 +242,7 @@ aside p {
 
 footer {
     background: #050505 url("../img/img01.jpg") repeat;
-    height: 140px;
+    /*height: 140px;*/
     margin-left: auto;
     margin-right: auto;
     padding-top: 50px;
