@@ -1,46 +1,158 @@
+/* Begin mobile only styles */
+
 @media all and (max-width: 500px) {
     h2 {
-        /*This style is for mobile version.*/ text-align: center;
-        /*This style is for mobile version.*/ margin-bottom: 20px;
+        text-align: center;
+        margin-bottom: 20px;
     }
 
     #logo h1 {
-        /*This style is for mobile version.*/ text-align: center;
+        text-align: center;
     }
 
     nav a {
-        /*This style is for mobile version.*/ font-size: 175%;
+        font-size: 175%;
     }
 
     article {
-        /*This style is for mobile version.*/border-bottom: 1px solid #222222;
+        border-bottom: 1px solid #222222;
     }
 
     article .entry {
-        /*This style is for mobile version.*/ padding-bottom: 10px;
+        padding-bottom: 10px;
     }
 
     .links {
-        /*This style is for mobile version.*/ margin-bottom: 30px;
+        margin-bottom: 30px;
     }
 
     footer p {
-        /*This style is for mobile version.*/ width: 80%;
-        /*This style is for mobile version.*/ margin-left: auto;
-        /*This style is for mobile version.*/ margin-right: auto;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .more {
-        /*This style is for mobile version.*/ margin-bottom: 10px;
+        margin-bottom: 10px;
     }
 
     .comments,
     .more {
-        /*This style is for mobile version.*/ width: 70%;
-        /*This style is for mobile version.*/ margin-left: auto;
-        /*This style is for mobile version.*/ margin-right: auto;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
+
+/* End mobile only styles */
+
+/* Begin desktop only styles */
+
+@media all and (min-width: 500px) {
+    p,
+    ul {
+        line-height: 180%;
+    }
+
+    header {
+        height: 150px;
+    }
+
+    #logo {
+        float: left;
+        width: 25%;
+    }
+
+    nav {
+        float: right;
+        width: 45%;
+        height: 90px;
+    }
+
+    nav ul {
+        float: right;
+        padding-top: 20px;
+    }
+
+    nav li {
+        float: left;
+    }
+
+    nav a {
+        line-height: 100px;
+        margin-right: 1px;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 1em;
+    }
+
+    main a {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    section {
+        float: right;
+        width: 62%;
+        margin-bottom: 30px;
+    }
+
+    article {
+        margin-bottom: 40px;
+        border-bottom: 1px solid #e7ebed;
+    }
+
+    article .meta {
+        margin-bottom: 50px;
+        padding-top: 10px;
+    }
+
+    article .meta time {
+        float: left;
+    }
+
+    article .meta .posted {
+        float: right;
+    }
+
+    article .entry {
+        padding-bottom: 40px;
+    }
+
+    .more {
+        margin-right: 10px;
+    }
+
+    .comments,
+    .more {
+        float: left;
+        width: 20%;
+    }
+
+    aside {
+        float: left;
+        width: 25%;
+    }
+
+    aside h2 {
+        height: 38px;
+        padding-bottom: 30px;
+    }
+
+    aside li li {
+        line-height: 40px;
+        border-bottom: 1px solid #e7ebed;
+    }
+
+    footer {
+        height: 140px;
+        clear: both;
+    }
+}
+
+/* End desktop only styles */
+
+/* Begin default styles */
 
 html {
     box-sizing: border-box;
@@ -86,7 +198,6 @@ h3 {
 p,
 ul {
     margin-top: 0;
-    /*line-height: 180%;*/
 }
 
 a {
@@ -98,7 +209,6 @@ a {
 #header {
     max-width: 1200px;
     width: 80%;
-    /*height: 150px;*/
     margin: auto;
 }
 
@@ -123,13 +233,7 @@ a {
 
 /* Logo */
 
-#logo {
-    /*float: left;*/
-    /*width: 25%;*/
-}
-
 #logo h1 {
-    /*line-height: 120px;*/
     letter-spacing: -2px;
     font-size: 3.8em;
 
@@ -142,33 +246,16 @@ a {
 
 /* Menu */
 
-nav {
-    /*float: right;*/
-    /*width: 45%;*/
-    /*height: 90px;*/
-}
-
 nav ul {
-    /*float: right;*/
-    /*padding-top: 20px;*/
     list-style: none;
-}
-
-nav li {
-    /*float: left;*/
 }
 
 nav a {
     display: block;
-    /*line-height: 100px;*/
-    /*margin-right: 1px;
-    padding-right: 20px;
-    padding-left: 20px;*/
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    /*font-size: 1em;*/
     font-weight: 300;
 }
 
@@ -186,23 +273,9 @@ main {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    /*padding-top: 30px;
-    padding-bottom: 30px;*/
 }
 
 /* Content */
-
-section {
-    /*float: right;*/
-    /*width: 62%;*/
-    /*margin-bottom: 30px;*/
-}
-
-article {
-    /*margin-bottom: 40px;*/
-    /*border-bottom: 1px solid #e7ebed;*/
-
-}
 
 article .title {
     padding-top: 7px;
@@ -215,23 +288,12 @@ article .title a {
 }
 
 article .meta {
-    /*margin-bottom: 50px;*/
-    /*padding-top: 10px;*/
     font-family: 'Abel', sans-serif;
     font-size: 1em;
     font-weight: 300;
 }
 
-article .meta time {
-    /*float: left;*/
-}
-
-article .meta .posted {
-    /*float: right;*/
-}
-
 article .entry {
-    /*padding-bottom: 40px;*/
     text-align: justify;
 }
 
@@ -239,15 +301,9 @@ article .entry {
     padding-top: 20px;
 }
 
-.more {
-    /*margin-right: 10px;*/
-}
-
 .comments,
 .more {
     display: block;
-    /*float: left;*/
-    /*width: 20%;*/
     padding: 5px 5px;
     background: #222222;
     color: #ffffff;
@@ -258,8 +314,6 @@ article .entry {
 /* Sidebar */
 
 aside {
-    /*float: left;*/
-    /*width: 25%;*/
     padding-top: 30px;
 }
 
@@ -273,19 +327,12 @@ aside li ul {
     padding-bottom: 30px;
 }
 
-aside li li {
-    /*line-height: 40px;*/
-    /*border-bottom: 1px solid #e7ebed;*/
-}
-
 aside li li a {
     padding-left: 20px;
     background: url("../img/img04.jpg") no-repeat left 50%;
 }
 
 aside h2 {
-    /*height: 38px;*/
-    /*padding-bottom: 30px;*/
     letter-spacing: -0.5px;
     font-size: 1.8em;
     color: #222222;
@@ -302,13 +349,11 @@ aside p {
 
 footer {
     background: #050505 url("../img/img01.jpg") repeat;
-    /*height: 140px;*/
     margin-left: auto;
     margin-right: auto;
     padding-top: 50px;
     padding-bottom: 15px;
     font-family: 'Abel', sans-serif;
-    /*clear: both;*/
 }
 
 footer p {
@@ -319,3 +364,5 @@ footer p {
     text-align: center;
     color: #5e5e5e;
 }
+
+/* End default styles */
