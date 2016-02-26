@@ -1,3 +1,47 @@
+@media all and (max-width: 500px) {
+    h2 {
+        /*This style is for mobile version.*/ text-align: center;
+        /*This style is for mobile version.*/ margin-bottom: 20px;
+    }
+
+    #logo h1 {
+        /*This style is for mobile version.*/ text-align: center;
+    }
+
+    nav a {
+        /*This style is for mobile version.*/ font-size: 175%;
+    }
+
+    article {
+        /*This style is for mobile version.*/border-bottom: 1px solid #222222;
+    }
+
+    article .entry {
+        /*This style is for mobile version.*/ padding-bottom: 10px;
+    }
+
+    .links {
+        /*This style is for mobile version.*/ margin-bottom: 30px;
+    }
+
+    footer p {
+        /*This style is for mobile version.*/ width: 80%;
+        /*This style is for mobile version.*/ margin-left: auto;
+        /*This style is for mobile version.*/ margin-right: auto;
+    }
+
+    .more {
+        /*This style is for mobile version.*/ margin-bottom: 10px;
+    }
+
+    .comments,
+    .more {
+        /*This style is for mobile version.*/ width: 70%;
+        /*This style is for mobile version.*/ margin-left: auto;
+        /*This style is for mobile version.*/ margin-right: auto;
+    }
+}
+
 html {
     box-sizing: border-box;
 }
@@ -25,8 +69,6 @@ h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
     color: #222222;
-    /*This style is for mobile version.*/ text-align: center;
-    /*This style is for mobile version.*/ margin-bottom: 20px;
 }
 
 h1 {
@@ -70,7 +112,6 @@ a {
     border-top: 0;
     border-left: 0;
     border-right: 0;
-
 }
 
 #banner img {
@@ -91,7 +132,7 @@ a {
     /*line-height: 120px;*/
     letter-spacing: -2px;
     font-size: 3.8em;
-    /*This style is for mobile version.*/ text-align: center;
+
 }
 
 #logo a {
@@ -127,8 +168,7 @@ nav a {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    /*font-size: 16px;*/
-    /*This style is for mobile version.*/ font-size: 175%;
+    /*font-size: 1em;*/
     font-weight: 300;
 }
 
@@ -161,7 +201,7 @@ section {
 article {
     /*margin-bottom: 40px;*/
     /*border-bottom: 1px solid #e7ebed;*/
-    /*This style is for mobile version.*/border-bottom: 1px solid #222222;
+
 }
 
 article .title {
@@ -192,18 +232,15 @@ article .meta .posted {
 
 article .entry {
     /*padding-bottom: 40px;*/
-    /*This style is for mobile version.*/ padding-bottom: 10px;
     text-align: justify;
 }
 
 .links {
-    /*padding-top: 20px;
-    /*This style is for mobile version.*/ margin-bottom: 30px;
+    padding-top: 20px;
 }
 
 .more {
     /*margin-right: 10px;*/
-    /*This style is for mobile version.*/margin-bottom: 10px;
 }
 
 .comments,
@@ -216,9 +253,6 @@ article .entry {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-/*This style is for mobile version.*/ width: 70%;
-/*This style is for mobile version.*/ margin-left: auto;
-/*This style is for mobile version.*/ margin-right: auto;
 }
 
 /* Sidebar */
@@ -284,7 +318,4 @@ footer p {
     text-transform: uppercase;
     text-align: center;
     color: #5e5e5e;
-/*This style is for mobile version.*/ width: 80%;
-/*This style is for mobile version.*/ margin-left: auto;
-/*This style is for mobile version.*/ margin-right: auto;
 }
