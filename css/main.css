@@ -41,7 +41,7 @@ a {
 
 /* Header and banner */
 
-header {
+#header {
     max-width: 1200px;
     width: 80%;
     height: 150px;
