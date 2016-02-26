@@ -15,6 +15,8 @@ h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
     color: #222222;
+    /*This style is for mobile version.*/ text-align: center;
+    /*This style is for mobile version.*/ margin-bottom: 20px;
 }
 
 h1 {
@@ -73,6 +75,7 @@ a {
     /*line-height: 120px;*/
     letter-spacing: -2px;
     font-size: 3.8em;
+    /*This style is for mobile version.*/ text-align: center;
 }
 
 #logo a {
@@ -86,11 +89,12 @@ nav {
     /*float: right;*/
     /*width: 45%;*/
     /*height: 90px;*/
+    /*This style is for mobile version.*/ width: 80%;
 }
 
 nav ul {
     /*float: right;*/
-    padding-top: 20px;
+    /*padding-top: 20px;*/
     list-style: none;
 }
 
@@ -108,7 +112,8 @@ nav a {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    font-size: 16px;
+    /*font-size: 16px;*/
+    /*This style is for mobile version.*/ font-size: 200%;
     font-weight: 300;
 }
 
@@ -126,8 +131,8 @@ main {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    /*padding-top: 30px;
+    padding-bottom: 30px;*/
 }
 
 /* Content */
@@ -135,12 +140,13 @@ main {
 section {
     /*float: right;*/
     /*width: 62%;*/
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
 }
 
 article {
-    margin-bottom: 40px;
-    border-bottom: 1px solid #e7ebed;
+    /*margin-bottom: 40px;*/
+    /*border-bottom: 1px solid #e7ebed;*/
+    /*This style is for mobile version.*/border-bottom: 1px solid #222222;
 }
 
 article .title {
@@ -154,8 +160,8 @@ article .title a {
 }
 
 article .meta {
-    margin-bottom: 50px;
-    padding-top: 10px;
+    /*margin-bottom: 50px;*/
+    /*padding-top: 10px;*/
     font-family: 'Abel', sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -170,17 +176,19 @@ article .meta .posted {
 }
 
 article .entry {
-    padding-bottom: 40px;
+    /*padding-bottom: 40px;*/
+    /*This style is for mobile version.*/ padding-bottom: 10px;
     text-align: justify;
 }
 
 .links {
-    padding-top: 20px;
-    margin-bottom: 30px;
+    /*padding-top: 20px;
+    margi/*This style is for mobile version.*/n-bottom: 30px;*/
 }
 
 .more {
-    margin-right: 10px;
+    /*margin-right: 10px;*/
+/*This style is for mobile version.*/margin-bottom: 10px;
 }
 
 .comments,
@@ -193,6 +201,9 @@ article .entry {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
+/*This style is for mobile version.*/ width: 70%;
+/*This style is for mobile version.*/ margin-left: auto;
+/*This style is for mobile version.*/ margin-right: auto;
 }
 
 /* Sidebar */
@@ -225,7 +236,7 @@ aside li li a {
 
 aside h2 {
     /*height: 38px;*/
-    padding-bottom: 30px;
+    /*padding-bottom: 30px;*/
     letter-spacing: -0.5px;
     font-size: 1.8em;
     color: #222222;
@@ -258,4 +269,7 @@ footer p {
     text-transform: uppercase;
     text-align: center;
     color: #5e5e5e;
+/*This style is for mobile version.*/ width: 80%;
+/*This style is for mobile version.*/ margin-left: auto;
+/*This style is for mobile version.*/ margin-right: auto;
 }
