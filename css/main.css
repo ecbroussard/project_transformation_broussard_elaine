@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -89,7 +97,6 @@ nav {
     /*float: right;*/
     /*width: 45%;*/
     /*height: 90px;*/
-    /*This style is for mobile version.*/ width: 80%;
 }
 
 nav ul {
@@ -105,15 +112,15 @@ nav li {
 nav a {
     display: block;
     /*line-height: 100px;*/
-    margin-right: 1px;
+    /*margin-right: 1px;
     padding-right: 20px;
-    padding-left: 20px;
+    padding-left: 20px;*/
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     /*font-size: 16px;*/
-    /*This style is for mobile version.*/ font-size: 200%;
+    /*This style is for mobile version.*/ font-size: 175%;
     font-weight: 300;
 }
 
@@ -188,7 +195,7 @@ article .entry {
 
 .more {
     /*margin-right: 10px;*/
-/*This style is for mobile version.*/margin-bottom: 10px;
+    /*This style is for mobile version.*/margin-bottom: 10px;
 }
 
 .comments,
