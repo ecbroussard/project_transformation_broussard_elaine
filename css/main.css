@@ -65,7 +65,7 @@ a {
 /* Logo */
 
 #logo {
-    float: left;
+    /*float: left;*/
     width: 25%;
 }
 
@@ -83,19 +83,19 @@ a {
 /* Menu */
 
 nav {
-    float: right;
+    /*float: right;*/
     width: 45%;
     height: 90px;
 }
 
 nav ul {
-    float: right;
+    /*float: right;*/
     padding-top: 20px;
     list-style: none;
 }
 
 nav li {
-    float: left;
+    /*float: left;*/
 }
 
 nav a {
@@ -133,7 +133,7 @@ main {
 /* Content */
 
 section {
-    float: right;
+    /*float: right;*/
     width: 62%;
     margin-bottom: 30px;
 }
@@ -162,11 +162,11 @@ article .meta {
 }
 
 article .meta time {
-    float: left;
+    /*float: left;*/
 }
 
 article .meta .posted {
-    float: right;
+    /*float: right;*/
 }
 
 article .entry {
@@ -186,7 +186,7 @@ article .entry {
 .comments,
 .more {
     display: block;
-    float: left;
+    /*float: left;*/
     width: 20%;
     padding: 5px 5px;
     background: #222222;
@@ -198,7 +198,7 @@ article .entry {
 /* Sidebar */
 
 aside {
-    float: left;
+    /*float: left;*/
     width: 25%;
     padding-top: 30px;
 }
@@ -248,7 +248,7 @@ footer {
     padding-top: 50px;
     padding-bottom: 15px;
     font-family: 'Abel', sans-serif;
-    clear: both;
+    /*clear: both;*/
 }
 
 footer p {
