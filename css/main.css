@@ -2,7 +2,9 @@ html {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
@@ -58,17 +60,23 @@ a {
     margin: auto;
 }
 
-
 #banner {
     max-width: 1200px;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    background: url("../img/img03.png") no-repeat left bottom;
+    border-bottom: 40px solid transparent;
+    border-image: url("../img/img03.png") 40;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+
 }
 
 #banner img {
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
 }
 
@@ -190,7 +198,7 @@ article .entry {
 
 .links {
     /*padding-top: 20px;
-    margi/*This style is for mobile version.*/n-bottom: 30px;*/
+    /*This style is for mobile version.*/ margin-bottom: 30px;
 }
 
 .more {
@@ -233,7 +241,7 @@ aside li ul {
 
 aside li li {
     /*line-height: 40px;*/
-    border-bottom: 1px solid #e7ebed;
+    /*border-bottom: 1px solid #e7ebed;*/
 }
 
 aside li li a {
