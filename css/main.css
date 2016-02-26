@@ -13,7 +13,7 @@ body {
     padding: 0;
     background: #050505 url("../img/img05.jpg") repeat;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 0.9em;
     color: #5b5b5b;
 }
 
@@ -178,7 +178,7 @@ article .meta {
     /*margin-bottom: 50px;*/
     /*padding-top: 10px;*/
     font-family: 'Abel', sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 300;
 }
 
@@ -280,7 +280,7 @@ footer {
 footer p {
     padding-top: 10px;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 0.9em;
     text-transform: uppercase;
     text-align: center;
     color: #5e5e5e;
