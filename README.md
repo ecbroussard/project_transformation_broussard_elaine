@@ -4,7 +4,7 @@
 
 # Link to Web Server
 
-[Responsive Transformation Project](elainebroussard.com/project_transformation_broussard_elaine)
+[Responsive Transformation Project](http://elainebroussard.com/project_transformation_broussard_elaine/)
 
 # Resources
 
