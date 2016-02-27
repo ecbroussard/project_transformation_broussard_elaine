@@ -1,18 +1,6 @@
 /* Begin mobile only styles */
 
-@media all and (max-width: 500px) {
-    h2 {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    #logo h1 {
-        text-align: center;
-    }
-
-    nav a {
-        font-size: 175%;
-    }
+@media all and (max-width: 600px) {
 
     article {
         border-bottom: 1px solid #222222;
@@ -34,13 +22,19 @@
 
     .more {
         margin-bottom: 10px;
+        margin-right: 20px;
     }
 
     .comments,
     .more {
         width: 70%;
-        margin-left: auto;
-        margin-right: auto;
+    }
+    article .meta .posted {
+        float: none;
+    }
+
+    time {
+        margin-right: 30px;
     }
 }
 
@@ -48,11 +42,7 @@
 
 /* Begin desktop only styles */
 
-@media all and (min-width: 500px) {
-    p,
-    ul {
-        line-height: 180%;
-    }
+@media all and (min-width: 600px) {
 
     header {
         width: 80%;
@@ -71,7 +61,6 @@
 
     nav {
         float: right;
-        width: 45%;
         height: 90px;
     }
 
@@ -158,6 +147,57 @@
 
 /* End desktop only styles */
 
+/* Begin in-between styles */
+
+@media all and (min-width: 600px) and (max-width: 1060px) {
+    #header {
+        height: 210px;
+        width: 100%;
+    }
+
+    #logo {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    #logo h1 {
+        text-align: center;
+    }
+
+    nav {
+        float: none;
+    }
+
+    nav ul {
+        float: none;
+        padding-top: 0;
+    }
+}
+
+@media all and (min-width: 600px) and (max-width: 840px) {
+    .comments,
+    .more {
+        float: left;
+        width: 30%;
+    }
+}
+
+@media all and (max-width: 730px) {
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #logo h1 {
+        text-align: center;
+    }
+
+    nav a {
+        font-size: 175%;
+    }
+}
+
 /* Begin default styles */
 
 html {
@@ -199,11 +239,6 @@ h2 {
 
 h3 {
     font-size: 1.6em;
-}
-
-p,
-ul {
-    margin-top: 0;
 }
 
 a {
